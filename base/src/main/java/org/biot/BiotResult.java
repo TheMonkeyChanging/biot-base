@@ -1,18 +1,25 @@
 package org.biot;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 /**
  * BIoT 返回结果统一定义
  *
  * @param <T>
  */
-@Data
+@Getter
+@Setter
 public class BiotResult<T> {
     private boolean success;
     private T result;
     private int errorCode;
     private String errorMsg;
+
+    private BiotResult() {
+
+    }
 
     private BiotResult(T result) {
         this.success = true;
