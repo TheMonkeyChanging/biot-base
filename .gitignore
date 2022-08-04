@@ -8,6 +8,8 @@ ToDo.txt
 *.iws
 *.iml
 *.ipr
+.DS_Store
+pom.xml.versionsBackup
 
 ### STS ###
 .apt_generated
