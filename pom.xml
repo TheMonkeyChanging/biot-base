@@ -18,6 +18,7 @@
     <modules>
         <module>dependency</module>
         <module>base</module>
+        <module>base-web</module>
     </modules>
 
 </project>

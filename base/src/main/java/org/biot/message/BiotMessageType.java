@@ -2,6 +2,9 @@ package org.biot.message;
 
 import lombok.Getter;
 
+/**
+ * Biot MQ消息类型
+ */
 public enum BiotMessageType {
     PRODUCT_CREATE("产品创建"),
     PRODUCT_ENABLE("产品启用"),

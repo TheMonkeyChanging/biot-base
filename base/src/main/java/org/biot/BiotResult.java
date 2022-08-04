@@ -1,6 +1,5 @@
 package org.biot;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -18,7 +17,7 @@ public class BiotResult<T> {
     private String errorMsg;
 
     private BiotResult() {
-
+        // 反序列化用
     }
 
     private BiotResult(T result) {

@@ -3,6 +3,9 @@ package org.biot;
 import lombok.Data;
 import lombok.NonNull;
 
+/**
+ * 业务错误码定义
+ */
 @Data
 public class BizError {
     public static final int ILLEGAL_ARGS = 400;
